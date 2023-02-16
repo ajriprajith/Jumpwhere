@@ -35,3 +35,11 @@ a:active{
 a:hover{
     opacity: 60%;
 }
+div.thebody{
+    margin: 20px;
+    padding: 20px;
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-size: 20px;
+    text-align: justify;
+    color: purple;
+}
