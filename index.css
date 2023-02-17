@@ -11,23 +11,33 @@
     font-size: 20px;
     font-family: "Comic Sans MS", "Comic Sans";
 }
+span{
+    position: relative;
+    top:22%;
+    left:2%
+}
 a.home-button{
     position: relative;
     top: 22%;
     text-decoration: none;
-    left: 65%;
+    left: 55%;
 }
 a.login-button{
     position: relative;
     top: 22%;
     text-decoration: none;
-    left: 68%;
+    left: 58%;
+    position: relative;
+    text-align: center;
+    caret-color: auto;
+
 }
 a.signup-button{
     position: relative;
     top: 22%;
     text-decoration: none;
-    left: 72%;
+    left: 62%;
+
 }
 a:active{
     color: beige;
@@ -41,5 +51,44 @@ div.thebody{
     font-family: "Comic Sans MS", "Comic Sans";
     font-size: 20px;
     text-align: justify;
+    color: purple;
+}
+div.lowtext{
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-size: 20px;
+    text-align: justify;
+    color: purple;
+    float: left;
+}
+div.lowtext1{
+    margin:15px;
+    width:300px;
+    height:320px;
+    float: left;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+div.lowtext2{
+    margin-top:15px;
+    margin:15px;
+    width:310px;
+    height:320px;
+    float: left;
+    background-color: gray;
+    border-radius: 8px;
+}
+div.lowtext3{
+    margin:15px;
+    width:310px;
+    height:320px;
+    float: left;
+    background-color: gray;
+    border-radius: 8px;
+
+}
+div{
+    font-family: "Comic Sans MS", "Comic Sans";
+    font-size: 15px;
     color: purple;
 }
